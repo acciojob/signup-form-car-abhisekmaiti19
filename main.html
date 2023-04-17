@@ -1,16 +1,50 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Name*</label>
+      <input type="text" required id="name" /> <br />
 
-<html>
+      <label for="email">Email*</label>
+      <input type="email" id="email" required /> <br />
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+      <label for="gender">Gender*</label> <br />
+      <label for="gender">Male</label
+      ><input type="radio" value="Male" name="gender" id="gender_m" required />
+      <label for="gender">Female</label>
+      <input type="radio" value="Female" name="gender" id="gender_f" required />
+      <br />
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+      <label for="car brnads">Car Brands*</label>
+      <select type="" required id="cars">
+        <option value="" selected disabled>--Please choose an option--</option>
+        <option value="BMW">BMW</option>
+        <option value="Audi">Audi</option>
+        <option value="Mercedez">Mercedez</option></select
+      ><br />
 
-</body>
+      <label for="Age">Age*</label>
+      <input type="number" required id="age" /> <br />
 
+      <label for="DOB">DOB*</label>
+      <input type="date" id="dob" required /> <br />
+
+      <label for="phonenumber">Phone Number</label>
+      <input type="tel" id="tel" /> <br />
+
+      <label for="password">Password*</label>
+      <input type="password" id="password" required /> <br />
+
+      <label for="tos">I agree to the TOS</label>
+      <input type="checkbox" id="tos" required /> <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
